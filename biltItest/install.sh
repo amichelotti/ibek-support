@@ -14,7 +14,7 @@ FOLDER=$(dirname $(readlink -f $0))
 set -xe
 
 # get the source and fix up the configure/RELEASE files
-ibek support git-clone ${NAME} ${VERSION} --org https://oauth2:zt_ALPjGqNRwLPeHMB8_@baltig.infn.it/infn-epics/
+ibek support git-clone ${NAME} ${VERSION} --org https://github.com/amichelotti
 ibek support register ${NAME}
 # None required for a stream device ------------------------------------
 
